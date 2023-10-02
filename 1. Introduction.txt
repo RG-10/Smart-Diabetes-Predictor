@@ -1,0 +1,41 @@
+Name:
+Usama Raheem
+Preferred Nickname: Usama
+
+Academic Background:
+Major: BS Computer Science (Domain: Data Science)
+University: University of Gujrat (UOG)
+Current Year of Study: Graduated 2019-2023
+
+Tech Interests:
+1. Machine Learning/Deep Learning
+2. Data Science
+3. Python
+4. Pandas, Matplotlib, Seaborn, Pyplot,  NumPy, Scikit-Learn, TensorFlow, Keras.
+5. Tableau Dashboards
+6. Google Colab, Jupyter Notebook, Anaconda
+7. Bioinformatics
+8. Protein Functions and Structure prediction.
+9. Amino Acid Sequence and protein-protein Interaction.
+ 
+
+Hobbies and Interests:
+1.Coding
+2. Writing Blogs
+3. Cooking
+4. Listening Music
+5. Gaming
+6. Calligraphy
+7. Duolingo
+
+Thanks for this internship with Internee.pk:
+I want to express my sincere gratitude for the opportunity to gain valuable internship experience with your organization. It has been an incredibly rewarding journey, and I appreciate the guidance and support I've received.
+
+Thank you for this invaluable experience.
+
+Future Goals:
+Skill Development: I aim to acquire practical skills and knowledge relevant to my field of study, such as [mention specific skills], to enhance my career prospects.
+Project Experience: I look forward to working on exciting projects that will challenge me and allow me to apply what I've learned in a real-world context.
+Networking: I hope to expand my professional network by connecting with experienced professionals in the industry, gaining insights, and building meaningful relationships.
+Learning Opportunities: I am eager to learn from the experienced team at Internee.pk, absorbing their expertise and gaining a deeper understanding of industry trends and best practices.
+Contributions: I aspire to make meaningful contributions to the organization, adding value through my work and dedication to the team's goals.
