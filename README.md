@@ -1,67 +1,67 @@
 # 🔬Smart Diabetes Predictor🔬
 
-This repository contains the code and documentation for the "Smart Diabetes Predictor" project. The project aims to predict the probability of an individual having diabetes based on diagnostic measures using machine learning techniques.
+📝 **Abstract**
 
-## Report by Usama Raheem
-- Term Project Report
-- Full Unit – Final Report
-- Diabetes Prediction using Machine Learning
-- Usama Raheem
-- Supervisor: Dr. Naveed Anwar Butt
-- Department of Computer Science
-- Hafiz Hayat, University of Gujrat
-- October 05, 2022
+This document contains a report based on the Diabetes Prediction dataset trained using well-known machine learning techniques and models. The author carefully predicts the probability of an individual having diabetes purely based on that individual's body features. Various machine learning models were trained and compared, leading to the selection of the best parameters for optimized prediction accuracy. The best model was deployed on the web using the Flask framework.
 
-## Declaration
+## Project Specification 📊
 
-I, Usama Raheem, declare that this report is based on my research work with guidance from colleagues. Any source materials used have been acknowledged.
+The main objective of this term project is to predict the probability of an individual having diabetes based on diagnostic measures. The dataset includes several medical predictor (independent) variables and one target (dependent) variable, Outcome. The independent variables include the number of pregnancies, glucose levels, blood pressure, skin thickness, insulin levels, BMI, diabetes pedigree function, and age. The primary task is to build a machine learning model that accurately predicts whether or not a patient in the dataset has diabetes.
 
-## Contents
+## Chapter 1: Introduction 🚀
 
-- [Abstract]
-- [Project Specification]
-- [Chapter 1: Introduction]
-- [Chapter 2: Modeling]
-- [Chapter 3: Cross Validation Classification Scores]
-- [Chapter 4: UI Diabetes Prediction]
-- [Conclusion]
+The project report demonstrates the steps and procedures for solving a real-world problem using data science and machine learning. The author uses machine learning to predict whether a person has diabetes based on information such as blood pressure, BMI, and age. The report covers the following sections:
 
-## Abstract
+- **Overview**
+- **Data Description**
+- **Data Exploration**
 
-This report documents the development and implementation of the "Smart Diabetes Predictor" project. It predicts an individual's likelihood of having diabetes based on various diagnostic measures. The project uses machine learning techniques and includes an end-to-end workflow from data preprocessing to model deployment with a user interface.
+### 1.1 Overview 🌐
 
-## Project Specification
+The data was collected and made available by the "National Institute of Diabetes and Digestive and Kidney Diseases." Several constraints were placed on the selection of these instances from a larger database. The diabetes dataset was easily available on Kaggle, providing valuable insights.
 
-The primary objective of this project is to predict the probability of an individual having diabetes using machine learning. The dataset includes medical predictor variables such as pregnancies, glucose levels, blood pressure, BMI, insulin, age, and more. The main task is to build an accurate machine learning model for diabetes prediction.
+### 1.2 Data Description 📊
 
-## Chapter 1: Introduction
+The dataset includes the following columns:
 
-- Overview
-- Data Description
-- Data Exploration (EDA)
+- Pregnancies: Number of times pregnant
+- Glucose: Plasma glucose concentration 2 hours in an oral glucose tolerance test
+- Blood Pressure: Diastolic blood pressure (mm Hg)
+- Skin Thickness: Triceps skin fold thickness (mm)
+- Insulin: 2-Hour serum insulin (mu U/ml)
+- BMI: Body mass index (weight in kg/(height in m)^2)
+- DiabetesPedigreeFunction: Data on diabetes mellitus history in relatives and genetic relationships
+- Age: Age (years)
+- Outcome: Class variable (0 or 1)
 
-## Chapter 2: Modeling
+## Accuracy Scores 📈
 
-- Classification
-- Comparison of Machine Learning Models
-- Hyperparameter Tuning
-- Best Model Selection
+| Classifier              | Accuracy   |
+|-------------------------|------------|
+| Logistic Regression     | 81%        |
+| KNN                     | 77%        |
+| Random Forest           | 79%        |
+| Support Vector Machine  | 81%        |
 
-## Chapter 3: Cross Validation Classification Scores
+### Hyperparameter Tuning 🎯
 
-- Precision, Recall, and F1-Score
-- Visualizing CV Scores
-- Feature Importance
+The best parameters for Logistic Regression:
+- 'C': 4.893900918477489
+- 'solver': 'liblinear'
 
-## Chapter 4: UI Diabetes Prediction
+## Cross Validation Classification Scores 🔄
 
-- Deployment Using Flask Framework
-- User Interface for Diabetes Prediction
+| Cross Validation   | Precision  | Recall  | F1-score  |
+|--------------------|------------|---------|-----------|
+| CV                 | 0.749743   | 0.714204| 0.580912  |
 
-## Conclusion
+## Conclusion 📌
 
-This project has been a valuable learning experience. It covers data preprocessing, exploratory data analysis, machine learning model selection, hyperparameter tuning, and model deployment. The project can predict diabetes with a certain accuracy and is accessible through a user-friendly web interface.
+This project was an exciting learning experience. The author gained valuable insights into machine learning and data science techniques. After implementing concepts taught by Dr. Naveed Anwar Butt, the author is now capable of:
 
----
-
-Feel free to customize this template with the actual content from your project report. You can add links to relevant files and images as needed.
+- Pre-processing data files
+- Performing exploratory data analysis
+- Training and testing models using various machine learning algorithms
+- Generating best parameters using hyperparameter tuning techniques
+- Producing valuable outcomes from raw data for better decision-making
+- Deploying trained models on the web with a beautiful UI using the Flask framework.
